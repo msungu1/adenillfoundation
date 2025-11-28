@@ -66,9 +66,9 @@ const Home = () => {
         <main className="main-content">
           
 
-<section className="heroo-seection">
+<section className="hero-seection">
   <div 
-    className="heroo-content"
+    className="hero-content"
     style={{
       backgroundImage: `
         linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.20) 70%),

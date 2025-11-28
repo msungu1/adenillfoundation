@@ -232,33 +232,20 @@
   border-radius: 0.5rem;
   box-shadow: 0 6px 16px rgba(0,0,0,0.1);
 }
-
-.donation-form input[type="number"] {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid #d1d5db;
-  border-radius: 0.375rem;
-  font-size: 1rem;
+.investment-quotes {
+  margin-top: 2rem;
+  text-align: center;
+  font-style: italic;
+  color: rgba(52, 58, 64, 0.9);
 }
 
-.frequency {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
+.investment-quotes blockquote {
+  margin: 1rem auto;
+  max-width: 700px;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
-.payment-icons {
-  display: flex;
-  gap: 1rem;
-  margin: 1rem 0;
-  justify-content: center;
-}
-
-.payment-icons img {
-  height: 32px;
-  object-fit: contain;
-}
 
 .secure {
   display: flex;

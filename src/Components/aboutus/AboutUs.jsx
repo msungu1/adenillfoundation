@@ -9,6 +9,13 @@ import member5 from "../../assets/member5.jpeg";
 import member8 from "../../assets/member8.jpeg";
 import logo from "../../assets/logo.jpeg";
 import member9 from "../../assets/member9.jpg"
+import  member10 from "../../assets/member10.jpeg"
+import member11 from "../../assets/member11.jpeg"
+import member12 from "../../assets/member12.jpeg"
+import member13 from "../../assets/member13.jpeg"
+import member14 from "../../assets/member13.jpg"
+
+
 
 
 
@@ -208,7 +215,7 @@ const AboutUs = () => {
   <div className="team-members">
         <div className="team-member">
       <img src={member2} alt="Jane Smith" />
-      <h3>Pst. Naphtally Ogallo
+      <h3>Pst. Naphtaly Ogallo
       </h3>
       <p> Chairman</p>
     </div>
@@ -247,28 +254,71 @@ const AboutUs = () => {
               </div>
             </section>
 
-            <section className="impact-section">
-              <div className="section-header">
-                <h2 className="section-title indigo-title">Impact Snapshot</h2>
-                <p className="section-subtitle">
-                  A brief look at our journey and key achievements since our inception.
-                </p>
-              </div>
-              <div className="grid-impact">
-                <div className="impact-card">
-                  <p className="impact-number">Feb 2023</p>
-                  <p className="impact-label">Foundation Established</p>
-                </div>
-                <div className="impact-card">
-                  <p className="impact-number">5+</p>
-                  <p className="impact-label">Correctional Facilities Partnered</p>
-                </div>
-                <div className="impact-card">
-                  <p className="impact-number">200+</p>
-                  <p className="impact-label">Lives Impacted Through Our Programs</p>
-                </div>
-              </div>
-            </section>
+           
+<section className="impact-section" aria-labelledby="impact-title">
+      <div className="section-header">
+        <h2 id="impact-title" className="section-title indigo-title">
+          Impact Snapshot
+        </h2>
+        <p className="section-subtitle">
+        A brief look at our journey and key achievements since our inception.
+        </p>
+      </div>
+
+      <div className="grid-impact">
+        <div className="impact-card">
+          <div className="impact-image">
+            <img
+              src={member14}
+              alt="Participant completing educational workbook in facility library"
+              loading="lazy"
+            />
+          </div>
+          <p className="impact-caption">
+          Adennil Foundation was invited to what we  call “ Chapati Forum”by Madam Mercy Nungari,to be part of that event which brings the Inmates and visitors together by the preparing and cooking of chapati’s. This event usually happens ever year mostly on 
+          the feastive season which is in december .          </p>
+        </div>
+
+        <div className="impact-card">
+          <div className="impact-image">
+            <img
+              src={member11}
+              alt="Group counseling session bringing healing and connection"
+              loading="lazy"
+            />
+          </div>
+          <p className="impact-caption">
+          In 2024 December,Adennil thought of the men who are not able to pay for their fines by doing that for them. As a foundation with the collaboration of Nairobi West Prison and Beatrice Muriu we managed to offset  a few of the inmates pending  fines. This brought alot of Joy to them and second chance for the Man to 
+          find his way home to continue his leadership role!          </p>
+        </div>
+
+        <div className="impact-card">
+          <div className="impact-image">
+            <img
+              src={member12}
+              alt="Partnership handshake inside a correctional facility"
+              loading="lazy"
+            />
+          </div>
+          <p className="impact-caption">
+          In  November 2025 . Adennil Foundation got 
+          an opportunity to conduct a Three day training with the young Boys at the Youth correctional Training Center (Juvenile) on topics that was meant to target their cognitive thinking so as to start to understand the importance of choosing wisely before you indulge or speak.          </p>
+        </div>
+
+        <div className="impact-card">
+          <div className="impact-image">
+            <img
+              src={member13}
+              alt="Volunteer teaching life skills class"
+              loading="lazy"
+            />
+          </div>
+          <p className="impact-caption">
+          Adennil Foundation was invited to what we  call “ Chapati Forum”by Madam Mercy Nungari,to be part of that event which brings the Inmates and visitors together by the preparing and cooking of chapati’s. This event usually happens ever year mostly on the feastive 
+          season which is in december .          </p>
+        </div>
+      </div>
+    </section>
           </div>
         </main>
 

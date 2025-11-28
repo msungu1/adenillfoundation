@@ -103,32 +103,23 @@ const GetInvolved = () => {
           <div className="container form-card">
           <h2>Make Your Donation</h2>
 <form className="donation-form">
-  {/* Donation amount input with minimum set to 1000 */}
-  <input 
-    type="number" 
-    placeholder="Amount (KES)" 
-    min="1000" 
-    defaultValue="1000" 
-    required 
-  />
+<div className="investment-quotes">
+  <blockquote>
+    “Partnering with Adennil Foundation means fueling sustainable solutions that uplift communities and restore dignity.”
+  </blockquote>
+  <blockquote>
+    “Every contribution creates measurable impact — opening doors to education, rehabilitation, and renewed leadership.”
+  </blockquote>
+</div>
 
-  <div className="frequency">
-    <label>
-      <input type="radio" name="freq" defaultChecked /> Monthly
-    </label>
-    <label>
-      <input type="radio" name="freq" /> One-Time
-    </label>
-  </div>
 
-  <div className="payment-icons">
-    <img src="mpesa-logo.png" alt="M-Pesa" />
-    <img src="visa-logo.png" alt="Visa" />
-    <img src="mastercard-logo.png" alt="Mastercard" />
-    <img src="paypal-logo.png" alt="PayPal" />
-  </div>
 
-  <button type="submit" className="primary-btn full">Donate Securely</button>
+
+
+
+<a href="/contact" className="primary-btn full">
+  Email Us For Donation
+</a>
   <p className="secure">
     <span className="material-symbols-outlined">lock</span> Secure · Transparent
   </p>
@@ -197,8 +188,9 @@ const GetInvolved = () => {
         <section className="cta-footer">
           <div className="container">
             <h2>Ready to Make a Difference?</h2>
-            <button className="primary-btn large">Join Us Today</button>
-          </div>
+            <a href="/contact" className="primary-btn full">
+Join us Today
+</a>          </div>
         </section>
       </main>
 
@@ -215,7 +207,6 @@ const GetInvolved = () => {
       <h3>Contact Us</h3>
       <ul>
         <li>+254 725 978 804</li>
-        <li>adennilfoundation@gmail.com</li>
         <li>@Adennilfoundation@gmail. Com</li>
       </ul>
     </div>

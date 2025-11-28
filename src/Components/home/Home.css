@@ -27,8 +27,6 @@
   background-color: #4b0082;
   color: #f8f9fa;
 }
-
-
 /* Navbar */
 .top-navbar {
   position: sticky;
@@ -98,7 +96,7 @@
 }
 .hero-section {
   min-height: 90vh;
-  height: 100dvh;           
+  height: 90dvh;           
   max-height: 1000px;
   display: flex;
   align-items: center;
@@ -136,6 +134,7 @@
   /* margin-bottom: 1rem; */
   line-height: 1.2;
   font-style:italic ;
+  color: white;
 }
 .hero-text p {
   font-size: 1.4rem;
@@ -145,6 +144,7 @@
   opacity: 0.95;
   font-weight: 700;
   font-style:italic ;
+  color: white;
 
 }
 
